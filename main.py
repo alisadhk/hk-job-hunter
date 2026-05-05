@@ -923,10 +923,14 @@ class MainWindow(QMainWindow):
     def _open_about(self):
         QMessageBox.about(self, "About HK-Job-Hunter",
             "<h3>🔍 HK-Job-Hunter</h3>"
-            "<p>Developed under the request and supervision of: <b>Ali</b></p>"
-            "<p>A specialized automation tool designed to relentlessly monitor, collect, and display "
-            "job vacancies across multiple online sources. It filters strict location metrics (like Iraq/Baghdad), "
-            "removes daily duplicates, and forwards the best opportunities directly to your Telegram chat.</p>"
+            "<p><b>Detailed Overview:</b><br>"
+            "HK-Job-Hunter is a high-performance automation suite designed to streamline the job hunting process in Iraq. "
+            "It utilizes advanced web scraping techniques to monitor LinkedIn job postings and public posts in real-time. "
+            "By leveraging search engine indexing and public APIs, it bypasses traditional scraping limitations, "
+            "providing a reliable and stealthy solution for job seekers.</p>"
+            "<p><b>Developer:</b> Eng. Ali Thamer<br>"
+            "<b>LinkedIn:</b> <a href='https://www.linkedin.com/in/ali-thamer-hk/'>ali-thamer-hk</a><br>"
+            "<b>Company:</b> <a href='http://hyperknowledge.info/'>Hyper Knowledge</a></p>"
             "<p><i>Version 1.2</i></p>"
         )
         

@@ -70,3 +70,12 @@ JSEARCH_API_KEY  = "RapidAPI key (optional)"
 - JSearch API: 500 free requests per month
 - The app tracks usage automatically and displays it in the log
 - When quota runs out, that source is skipped and logged
+
+## Developer & Credits
+
+- **Developer:** Eng. Ali Thamer
+- **LinkedIn:** [Ali Thamer](https://www.linkedin.com/in/ali-thamer-hk/)
+- **Company:** [Hyper Knowledge](http://hyperknowledge.info/)
+
+---
+*Developed for efficient job hunting in the Iraqi market.*
