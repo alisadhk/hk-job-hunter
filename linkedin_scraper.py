@@ -1,5 +1,5 @@
 # =============================================================
-#  Job Hunter - LinkedIn Direct Scraper (Free / No Key)
+#  hk-job-hunter - LinkedIn Direct Scraper (Free / No Key)
 #  Uses LinkedIn's public guest job search API (no auth needed)
 # =============================================================
 import requests, re, time

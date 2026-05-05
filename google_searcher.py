@@ -1,5 +1,5 @@
 # =============================================================
-#  Job Hunter - Web Posts Searcher (Yahoo/Bing Engine)
+#  hk-job-hunter - Web Posts Searcher (Yahoo/Bing Engine)
 # =============================================================
 import time
 import urllib.request

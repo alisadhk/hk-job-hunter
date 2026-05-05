@@ -1,5 +1,5 @@
 # =============================================================
-#  Job Hunter - Telegram Notifier
+#  hk-job-hunter - Telegram Notifier
 # =============================================================
 import requests
 from datetime import datetime
@@ -62,7 +62,7 @@ def send_summary(total_found: int, total_sent: int, keywords: list, source: str)
     send_message(text)
 
 def send_error(msg: str):
-    send_message(f"⛔ <b>Job Hunter Error:</b>\n{msg}")
+    send_message(f"⛔ <b>hk-job-hunter Error:</b>\n{msg}")
 
 def test_connection() -> bool:
     try:

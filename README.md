@@ -1,11 +1,11 @@
-# HK Job Hunter 🔍
+# hk-job-hunter 🔍
 
 Automated job search tool for Baghdad/Iraq on LinkedIn with Telegram notifications.
 
 ## Project Structure
 
 ```
-job_hunter/
+hk-job-hunter/
 ├── main.py              ← GUI (PyQt6)
 ├── config.py            ← Settings + API keys
 ├── search_engine.py     ← Main search orchestrator

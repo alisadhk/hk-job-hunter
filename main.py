@@ -1,5 +1,5 @@
 # =============================================================
-#  Job Hunter - Main GUI (PyQt6)
+#  HK-Job-Hunter - Main GUI (PyQt6)
 # =============================================================
 import sys, json, os, threading
 from datetime import datetime
@@ -726,7 +726,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("🔍 HK Job Hunter — Baghdad")
+        self.setWindowTitle("🔍 HK-Job-Hunter — Baghdad")
         self.setMinimumSize(1280, 820)
         self.resize(1440, 900)
 
@@ -921,8 +921,8 @@ class MainWindow(QMainWindow):
         dlg.exec()
         
     def _open_about(self):
-        QMessageBox.about(self, "About HK Job Hunter",
-            "<h3>🔍 HK Job Hunter</h3>"
+        QMessageBox.about(self, "About HK-Job-Hunter",
+            "<h3>🔍 HK-Job-Hunter</h3>"
             "<p>Developed under the request and supervision of: <b>Ali</b></p>"
             "<p>A specialized automation tool designed to relentlessly monitor, collect, and display "
             "job vacancies across multiple online sources. It filters strict location metrics (like Iraq/Baghdad), "
@@ -933,7 +933,7 @@ class MainWindow(QMainWindow):
     def _open_help(self):
         msg = QMessageBox(self)
         msg.setWindowTitle("Help & Instructions")
-        msg.setText("<h3>📖 How to Use HK Job Hunter</h3>"
+        msg.setText("<h3>📖 How to Use HK-Job-Hunter</h3>"
             "<p><b>General Idea:</b> This program autonomously scrapes LinkedIn (Jobs & Posts) to find fresh IT & Network job listings specifically localized to your targeted region (Iraq/Baghdad). It acts as a 24/7 background worker sending you VIP Telegram notifications.</p>"
             "<h4>🚀 Quick Start</h4>"
             "<ul>"
@@ -1035,7 +1035,7 @@ class MainWindow(QMainWindow):
 
     def _test_telegram(self):
         def _send():
-            ok = send_message("🔔 <b>HK Job Hunter</b>\nConnection test — Working successfully ✅")
+            ok = send_message("🔔 <b>HK-Job-Hunter</b>\nConnection test — Working successfully ✅")
             level = "success" if ok else "error"
             msg   = "✅ Test message sent to Telegram" if ok else "⛔ Failed to send test message"
             self._log("telegram", msg, level)

@@ -1,5 +1,5 @@
 # =============================================================
-#  Job Hunter - Dedup Manager (Duplicate Prevention)
+#  hk-job-hunter - Dedup Manager (Duplicate Prevention)
 # =============================================================
 import json, hashlib, os
 from datetime import datetime

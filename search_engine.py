@@ -1,5 +1,5 @@
 # =============================================================
-#  Job Hunter - Search Orchestrator
+#  hk-job-hunter - Search Orchestrator
 # =============================================================
 import requests, time
 from google_searcher    import search_google_posts
