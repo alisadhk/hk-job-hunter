@@ -1,7 +1,7 @@
 # =============================================================
 #  HK-Job-Hunter - Main GUI (PyQt6)
 # =============================================================
-import sys, json, os, threading
+import sys, json, os, threading, webbrowser
 from datetime import datetime
 
 # Add the current directory to sys.path to ensure local imports work
@@ -560,6 +560,7 @@ class ResultsTable(QGroupBox):
         self.table.setSelectionBehavior(QTableWidget.SelectionBehavior.SelectRows)
         self.table.verticalHeader().setVisible(False)
         self.table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
+        self.table.cellClicked.connect(self._handle_click)
         lay.addWidget(self.table)
 
         row2 = QHBoxLayout()
@@ -595,6 +596,13 @@ class ResultsTable(QGroupBox):
         self.table.setRowCount(0)
         self.count_lbl.setText("0 results")
         clear_seen()
+
+    def _handle_click(self, row, col):
+        if col == 4:  # Link column
+            item = self.table.item(row, col)
+            url = item.data(Qt.ItemDataRole.UserRole)
+            if url:
+                webbrowser.open(url)
 
 # ──────────────────────────────────────────────
 #  Status Bar
