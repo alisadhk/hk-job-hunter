@@ -7,11 +7,22 @@ TELEGRAM_CHAT_ID = "YOUR_CHAT_ID_HERE"
 
 # ---- Default Keywords ----
 DEFAULT_KEYWORDS = [
-    "accounting",
-    "accounting manager",
-    "senior accounting",
-    "accounting finance",
-    "finance",
+    "NOC",
+    "network",
+    "network engineer",
+    "Network",
+    "Network Engineer",
+    "Network Solutions Engineer",
+    "Solutions Engineer",
+    "Network Manager",
+    "Network Team Leader",
+    "NOC Team Leader",
+    "NOC Senior Engineer",
+    "Technical PMO",
+    "Technical",
+    "Technical Manager",
+    "Technical Team Leader",
+    "Head of IT",
 ]
 
 # ---- All Baghdad/Iraq location variants ----
