@@ -1,0 +1,9 @@
+config.py
+data/
+__pycache__/
+*.pyc
+build/
+dist/
+*.zip
+*.exe
+yahoo_test.html
